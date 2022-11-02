@@ -42,11 +42,11 @@
           image: imageObj,
           width: 1920,
           height: 1080,
-          y: 170
+          
         });
-        imageObj.src = 'backgrounds/Lumacie_Archipelago_Large.jpg';
         layer.add(yoda);
       };
+      imageObj.src = 'backgrounds/Lumacie_Archipelago_Large.jpg';
             
       create_rectangles(320, 320, 125, 25, 5, layer_rectangles, layer_characters);
       create_rectangles(520, 320, 125, 25, 5, layer_rectangles, layer_characters);
@@ -111,8 +111,8 @@ function create_image(position_x, position_y, size, layer) {
    layer.add(yoda);
    };
    imageObj.src = 'chars/Gran.png';
-
 }
+
 
       // function from https://stackoverflow.com/a/15832662/512042
       function downloadURI(uri, name) {
